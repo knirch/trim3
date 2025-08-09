@@ -1,0 +1,12 @@
+name = "trim3"
+version = "1.0.0"
+
+description = "Trim/3 in Gleam"
+licences = ["Unlicense"]
+repository = { type = "github", user = "knirch", repo = "trim3" }
+
+[dependencies]
+
+[dev-dependencies]
+gleam_stdlib = ">= 0.62.1 and < 1.0.0"
+gleeunit = ">= 1.0.0 and < 2.0.0"
